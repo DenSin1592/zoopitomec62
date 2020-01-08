@@ -3,18 +3,11 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-
-const indexRouter = require('./routes/index');
-const aboutRouter = require('./routes/about');
-const contactsRouter = require('./routes/contacts');
-//const usersRouter = require('./routes/users');
+const router = require('./routes/route');
 
 const app = express();
 
-app.use('/', indexRouter);
-app.use('/about', aboutRouter);
-app.use('/contacts', contactsRouter);
-//app.use('/users', usersRouter);
+app.use('/', router);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
