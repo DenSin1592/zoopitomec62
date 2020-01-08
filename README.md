@@ -7,4 +7,21 @@
     <li>Express</li>
     <li>EJS</li>
 </ul>
+<p>Возможно будет добавлено:
+<ul>
+    <li>DB:</li>
+    <li>
+        <ul>
+            <li>MongoDB</li>
+            <li>Mongoose</li>
+        </ul>
+    </li>
+    <li>Пакеты</li>
+    <li>
+        <ul>
+            <li>BodyParser</li>
+            <li>Cors</li>    
+        </ul>
+    </li>
+</ul>
 </p>
