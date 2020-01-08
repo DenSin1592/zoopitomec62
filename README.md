@@ -15,14 +15,14 @@
   <li>Mongoose</li>
 </ul>
 
-<p>Авторизация:</p>
+<p>Работа с формами:</p>
 <ul>
   <li>BodyParser</li>
   <li>Cors</li>
   <li>jsonwebtoken</li>
 </ul>
 
-<p>Работа с формами:</p>
+<p>Авторизация:</p>
 <ul>
   <li>passport</li>
   <li>passport-jwt</li>
